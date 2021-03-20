@@ -13,8 +13,7 @@ class MainActivity : AppCompatActivity()  {
     private val fragment1 = Fragment1()
     private val fragment2 = Fragment2()
     private var fragmentTemp: Fragment? = null
-
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
